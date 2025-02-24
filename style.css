@@ -43,22 +43,21 @@ section {
 }
 
 .img1 {
-  position: absolute;
-  left: 0px;
-  top: 154px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
   z-index: -1;
-  width: 100%;
-  background-size: cover;
-  background-repeat: no-repeat, repeat;
 }
-.img2 {
+/* .img2 {
   position: absolute;
   left: 0px;
   top: 0px;
   z-index: -1;
   background-repeat: no-repeat;
   padding: 15px;
-}
+} */
 
 section {
   border: 1px solid #c0c0c0;
